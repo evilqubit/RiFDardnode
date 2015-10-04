@@ -27,7 +27,7 @@ var insta_conf = {
             "event": "io",
             "trackers": {
                 "user": user,
-                "event": text
+                "text": text
             }
         }, function (err, response) {
             console.log(err, response);
